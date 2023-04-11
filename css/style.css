@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import url('./font/font.css');
+@import url("./font/font.css");
 * {
   margin: 0;
   padding: 0;
@@ -112,7 +112,7 @@ body::-webkit-scrollbar-track {
   position: relative;
 }
 .gnb > li > a > span::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -144,7 +144,7 @@ body::-webkit-scrollbar-track {
   height: 100%;
 }
 .nav-mb i::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 0;
@@ -157,7 +157,7 @@ body::-webkit-scrollbar-track {
 }
 
 .nav-mb i::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 0;
   top: 100%;
@@ -243,7 +243,7 @@ body::-webkit-scrollbar-track {
   color: #131313;
 }
 .gnb-mb li a::after {
-  content: '';
+  content: "";
   position: absolute;
   left: calc(100% + 15px);
   top: 55px;
@@ -307,7 +307,7 @@ body::-webkit-scrollbar-track {
   background: #000;
 }
 .gnb-mb-sns li a::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   top: 50%;
@@ -317,21 +317,21 @@ body::-webkit-scrollbar-track {
   transition: background-position 0.3s;
 }
 .i-fb::before {
-  background: url('../images/icon_sns.svg') no-repeat;
+  background: url("../images/icon_sns.svg") no-repeat;
   background-position: 0 0;
 }
 .i-fb:hover::before {
   background-position: -30px 0;
 }
 .i-is::before {
-  background: url('../images/icon_sns.svg') no-repeat;
+  background: url("../images/icon_sns.svg") no-repeat;
   background-position: 0 -30px;
 }
 .i-is:hover::before {
   background-position: -30px -30px;
 }
 .i-yt::before {
-  background: url('../images/icon_sns.svg') no-repeat;
+  background: url("../images/icon_sns.svg") no-repeat;
   background-position: 0 -60px;
 }
 .i-yt:hover::before {
@@ -409,7 +409,7 @@ body::-webkit-scrollbar-track {
   letter-spacing: 1px;
 }
 .sw-visual-control li::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -463,7 +463,7 @@ body::-webkit-scrollbar-track {
   font-size: 0;
 }
 .sw-visual-prev::before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   left: calc(50% + 6px);
@@ -493,7 +493,7 @@ body::-webkit-scrollbar-track {
 }
 
 .sw-visual-next::before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   left: calc(50% - 6px);
@@ -555,15 +555,15 @@ body::-webkit-scrollbar-track {
   height: 100%;
 }
 .v-bg-1 {
-  background: url('../images/bg01.jpg') no-repeat center;
+  background: url("../images/bg01.jpg") no-repeat center;
   background-size: cover;
 }
 .v-bg-2 {
-  background: url('../images/bg02.jpg') no-repeat center;
+  background: url("../images/bg02.jpg") no-repeat center;
   background-size: cover;
 }
 .v-bg-3 {
-  background: url('../images/bg03.jpg') no-repeat center;
+  background: url("../images/bg03.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -724,7 +724,7 @@ body::-webkit-scrollbar-track {
   border: 1px solid #fff;
 }
 .about-left a::after {
-  content: '';
+  content: "";
   display: block;
   width: 40px;
   min-width: 40px;
@@ -948,35 +948,35 @@ body::-webkit-scrollbar-track {
   height: 100%;
 }
 .swBrand-good-1 {
-  background: url('../images/bg_gola.jpg') no-repeat center;
+  background: url("../images/bg_gola.jpg") no-repeat center;
   background-size: cover;
 }
 .swBrand-good-2 {
-  background: url('../images/bg_comoninoz.jpg') no-repeat center;
+  background: url("../images/bg_comoninoz.jpg") no-repeat center;
   background-size: cover;
 }
 .swBrand-good-3 {
-  background: url('../images/bg_w.standard.jpg') no-repeat center;
+  background: url("../images/bg_w.standard.jpg") no-repeat center;
   background-size: cover;
 }
 .swBrand-good-4 {
-  background: url('../images/bg_deliccent.jpg') no-repeat center;
+  background: url("../images/bg_deliccent.jpg") no-repeat center;
   background-size: cover;
 }
 .swBrand-good-5 {
-  background: url('../images/bg_outdoor_products.jpg') no-repeat center;
+  background: url("../images/bg_outdoor_products.jpg") no-repeat center;
   background-size: cover;
 }
 .swBrand-good-6 {
-  background: url('../images/bg_ocean_pacific.jpg') no-repeat center;
+  background: url("../images/bg_ocean_pacific.jpg") no-repeat center;
   background-size: cover;
 }
 .swBrand-good-7 {
-  background: url('../images/bg_ordinary_holiday.jpg') no-repeat center;
+  background: url("../images/bg_ordinary_holiday.jpg") no-repeat center;
   background-size: cover;
 }
 .swBrand-good-8 {
-  background: url('../images/bg_field_worker.jpg') no-repeat center;
+  background: url("../images/bg_field_worker.jpg") no-repeat center;
   background-size: cover;
 }
 .swBrand-good-wrap {
@@ -1027,7 +1027,7 @@ body::-webkit-scrollbar-track {
   transition: 0.2s;
 }
 .swBrand-good-wrap a::after {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   right: 30px;
@@ -1050,15 +1050,67 @@ body::-webkit-scrollbar-track {
 .swBrandMenu {
   position: absolute;
   top: 50%;
-  left: 83.333%;
+  left: 83.3333%;
+  transform: translateY(-50%);
   z-index: 99;
 }
 .swBrandMenu li {
 }
 .swBrandMenu li a {
+  position: relative;
+  display: block;
+  margin-right: 30px;
+  margin-bottom: 28px;
+  font-size: 17px;
+  font-weight: 700;
   color: #fff;
+  opacity: 0.3;
+  transition: 0.2s;
 }
 .swBrandMenu li a::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: -30px;
+  top: 4px;
+  width: 10px;
+  height: 3px;
+  background-color: #fff;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+.swBrandMenu li a:hover {
+  opacity: 1;
+}
+.swBrandMenu li a:hover::after {
+  opacity: 1;
+  width: 20px;
+}
+.swBrandMenu li.active a {
+  opacity: 1 !important;
+}
+.swBrandMenu li.active a::after {
+  opacity: 1 !important;
+  width: 20px !important;
+}
+.swBrand-pg {
+  position: absolute;
+  display: none;
+  left: 0 !important;
+  bottom: 20px !important;
+  width: 100%;
+  z-index: 999999;
+  text-align: center;
+}
+.swBrand-pg .swiper-pagination-bullet {
+  border-radius: 0;
+  width: 20px;
+  height: 3px;
+  opacity: 0.3;
+  background: #fff;
+}
+.swBrand-pg .swiper-pagination-bullet-active {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1600px) {
@@ -1116,6 +1168,7 @@ body::-webkit-scrollbar-track {
     font-size: 16px;
   }
 }
+
 @media screen and (max-width: 1050px) {
   .brand-left h2 {
     font-size: 40px;
@@ -1193,6 +1246,12 @@ body::-webkit-scrollbar-track {
     width: 25px;
     background: #7e7f7a;
   }
+  .swBrandMenu {
+    display: none;
+  }
+  .swBrand-pg {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 540px) {
@@ -1211,7 +1270,89 @@ body::-webkit-scrollbar-track {
 .location {
   position: relative;
   display: block;
+  background: #f5f5f5;
+  padding: 160px 0;
 }
+.location .inner {
+  width: 83.3333%;
+  max-width: 83.3333%;
+  padding: 0 8%;
+}
+.location-title {
+}
+.location-title span {
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.location-title h3 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.location-map {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  box-shadow: 0 30px 90px rgba(19, 19, 19, 0.2);
+}
+
+.location-map img {
+  width: 100%;
+}
+
+.location-addr {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.location-addr a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #131313;
+}
+.location-kko {
+  position: relative;
+  display: inline-block;
+  min-width: 180px;
+  height: 60px;
+  padding: 0 80px 0 30px;
+  background-color: #131313;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 60px;
+  text-align: left;
+  transition: 0.2s;
+  margin-top: 97px;
+}
+.location-kko::after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  width: 40px;
+  height: 3px;
+  margin-top: -2px;
+  background-color: #fff;
+  transition: 0.2s;
+}
+.location-kko:hover {
+  background-color: transparent;
+  color: #131313;
+  box-shadow: inset 0px 0px 1px 1px #131313;
+}
+.location-kko:hover::after {
+  background-color: #131313;
+  color: #131313;
+}
+
 .footer {
   position: relative;
   display: block;
